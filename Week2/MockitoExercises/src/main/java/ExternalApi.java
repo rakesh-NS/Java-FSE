@@ -1,9 +1,7 @@
 package Week1.JUnitSetupExample.src.main.java;
 
-public class Calculator {
+public interface ExternalApi {
 
-    public int add(int a, int b) {
-        return a + b;
-    }
+    String getData();
 
 }
